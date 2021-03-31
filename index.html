@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+html{
+ margin: 0;
+ padding: 0;
+ font: 1.5vw Arial;
+ background-image: url("speed.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ font-size: 1.5vw;
+ max-width: 100%;
+ overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-top: 8vw;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2vw;
+}
+.header {
+ top: 0;
+ left: 0;
+ padding: 1vw;
+ background: #494949;
+ color: white;
+ position: fixed;
+ width: 100vw;
+}
+.headertext{
+font-weight: 900;
+font-size: 25px;
+}
+
+.textbigcenter{
+text-align: center;
+font-weight: 900;
+font-size: 50px;
+}
+.textbold{
+font-weight: 900;
+font-size: 15px;
+}
+.textbuttoncenter{
+text-align: center;
+font-weight: 1000;
+font-size: 70px;
+}
+
+.centeredtext{
+animation: rotation 2s infinite linear;
+text-align: center;
+font-weight: 500;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #00FFFF;
+  color: white;
+}
+.section{
+position: absolute;
+left: 0px;
+width: 100%;
+background-color: #233339;
+
+</style>   
+</head>
+  <body>
+  <div class="centeredtext">
+  <img src="bread.png" alt="bread" height=45% width=45%>
+  </div>
+  <div class="header">
+  <div class="headertext"><p>Bread ⠀<a href='#' class="button">Home</a></p></div>
+  </div>
+  </body>
+</html>
